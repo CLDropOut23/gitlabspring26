@@ -15,10 +15,15 @@
 
 //place function prototypes here
 
+
 void jbInit(void);
 
 void ip21(void);
 
+
+void folksamEV(void);
+
+void ip21(void);
 
 void rtFun(void);
 
@@ -94,6 +99,7 @@ int main(int argc, char *argv[])
 			}
 			case 8:
 			{
+				folksamEV();
 				puts("room8");
 				break;
 			}
@@ -451,6 +457,10 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+void folksamEV(void) 
+{
+	printf("EV\n");
+}
 
 void jbInit()
 {
